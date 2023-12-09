@@ -109,6 +109,7 @@ int main() {
     int power = color_map.red_max * color_map.green_max * color_map.blue_max;
     game_total += power;
   }
+  fclose(fptr);
 
   printf("Game total: %lu\n", game_total);
 
